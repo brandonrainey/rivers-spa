@@ -1,0 +1,28 @@
+.main {
+    width: 80%;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-self: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+}
+
+.image {
+  object-fit: cover;
+  
+  border-radius: 15px;
+  
+}
+
+@media (max-width: 1000px) {
+    .main {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .image {
+        border-radius: 0px;
+    }
+}
